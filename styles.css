@@ -1,20 +1,80 @@
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(17, 26, 34);
     line-height: 1.5;
-}
-
-h1 {
-    background-color: blanchedalmond;
+    box-sizing: border-box;
     text-align: center;
-    color: cadetblue;
 }
 
-body li {
+h1, h2 {
+    background-color: rgba(255, 235, 205, 15%);
+    color: cadetblue;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+ul, ol {
+    padding: 0%;
+}
+
+ol li{
+    list-style: inside decimal;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+
+li {
     margin: 10px;
-    padding: 5px;
+    margin-left: 0%;
+    margin-right: 0px;
     list-style: none;
     font-weight: 600;
     color: cadetblue;
-    background-color: blanchedalmond;
+    background-color: rgba(255, 235, 205, 15%);
+    border-radius: 15px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 5px 10em;
+}
+
+a:hover {
+    color: rgb(200, 158, 20);
+    text-decoration: none;
+}
+img {
+    border-radius: 15px;
+
+}
+
+p {
+    color: cadetblue;
+}
+
+.card {
+    background-color: rgb(33, 32, 43);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer {
+    background-color: rgb(39, 31, 39);
+    color: black;
+    width: min-content;
+    text-align: center;
+    display: inline;
+    border-radius: 15px;
+}
+
+.ingredients li, .description li {
+    display: inline-flex;
+    padding: 5px;
 }
